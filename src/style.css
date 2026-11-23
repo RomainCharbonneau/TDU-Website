@@ -101,6 +101,7 @@ hr {
 a {
   color: var(--link);
   text-decoration: none;
+  font-weight: 750;
 }
 
 a:hover {
@@ -419,6 +420,7 @@ img {
 /* ROBOT INDIVIDUAL IMAGES */
 
 .robot-photo {
+  display: block;
   width: 100%;
   max-width: 45rem;
   height: auto;
@@ -436,9 +438,43 @@ img {
   margin: auto;
 }
 
-.dropbtn {
+/* Robot and Outreach GRID */
+
+.grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
+  gap: clamp(0.9rem, 2vw, 1.25rem);
   width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* OUTREACH INDIVIDUAL IMAGES */
+
+.outreach-photo {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+/* OUTREACH GRID IMAGES */
+
+.outreach {
+  width: 90%;
+  max-width: 11rem;
+  height: 13rem;
+  object-fit: contain;
+  margin: auto;
+}
+
+.dropbtn {
+  width: 22%;
   max-width: 16rem;
+  min-width: 8rem;
   min-height: 18rem;
   background: var(--surface);
   color: var(--text);
@@ -462,15 +498,6 @@ img {
   border-color: var(--sage-green);
   transform: translateY(-0.2rem);
   box-shadow: 0 0.3rem 1rem rgb(28 62 29 / 12%);
-}
-
-/* ROBOT GRID */
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
-  gap: clamp(0.9rem, 2vw, 1.25rem);
-  width: 100%;
 }
 
 /* DOCUMENTS */
