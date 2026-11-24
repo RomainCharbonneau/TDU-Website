@@ -8,7 +8,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="paragraph">
   <div>
     <br><br><br>
-    <img src="/assets/images/outreach/mwb.png" class="outreach-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/outreach/mwb.png" class="outreach-photo">
     <br><br>
     <b><h1> Mentors Without Borders </h1></b>
   </div>
@@ -29,7 +29,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     across borders to collaborate and share best practices. Additionally, MWB reduces the barriers for teams to start 
     working and collaborating internationally.
     <br><br>
-    <img src="/assets/images/outreach/mwb-circle.jpg" class="robot-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/outreach/mwb-circle.jpg" class="robot-photo">
     <br><br>
     MWB Partner teams include FRC teams 3132 (Thunder Down Under) and 1403 (Cougar Robotics), FTC teams 3595 
     (Schrödinger’s Hat), 4251 (Cougar Robotics) and 5972 (Patronum Bots), and FLL team Project Bucephalus. If you are 

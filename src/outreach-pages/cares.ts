@@ -8,7 +8,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="paragraph">
   <div>
     <br><br><br>
-    <img src="/assets/images/outreach/cares.png" class="outreach-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/outreach/cares.png" class="outreach-photo">
     <br><br>
     <b><h1> California Australian Robotics Equipment Service </h1></b>
   </div>

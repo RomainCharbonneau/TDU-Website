@@ -3,10 +3,10 @@ export function createFooter() {
 
         <footer>
         <div class="buttons">
-            <a href="/support-us.html" target="_self">
+            <a href="${import.meta.env.BASE_URL}support-us" target="_self">
             <button>Support Us!</button>
             </a>
-            <a href="/contact-us.html" target="_self">
+            <a href="${import.meta.env.BASE_URL}contact-us" target="_self">
             <button>Contact Us!</button>
             </a>
         </div>
