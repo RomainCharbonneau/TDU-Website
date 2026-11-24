@@ -433,7 +433,8 @@ img {
 .robots {
   width: 90%;
   max-width: 11rem;
-  height: 13rem;
+  aspect-ratio: 0.75;
+  height: auto;
   object-fit: contain;
   margin: auto;
 }
@@ -466,7 +467,8 @@ img {
 .outreach {
   width: 90%;
   max-width: 11rem;
-  height: 13rem;
+  aspect-ratio: 0.85;
+  height: auto;
   object-fit: contain;
   margin: auto;
 }
@@ -519,6 +521,11 @@ img {
   #FAQ {
     text-align: left;
   }
+
+  .logo {
+        display: block;
+        margin: 1.5rem auto 0;
+  } 
 }
 
 /* PHONE */
