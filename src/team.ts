@@ -9,7 +9,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <br><br><br>
     <b><h1> The Team </h1></b>
-    <img src="/assets/images/team2026.webp" alt="team photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/team2026.webp" alt="team photo">
     <br><br>
 
 </section>

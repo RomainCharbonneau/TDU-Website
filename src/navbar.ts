@@ -1,10 +1,10 @@
 export function createNavbar() {
     return `
         <nav>
-            <a href="/">Home</a>
-            <a href="/team">The Team</a>
-            <a href="/outreach">Outreach</a>
-            <a href="/robots">Robots</a>
+            <a href="${import.meta.env.BASE_URL}">Home</a>
+            <a href="${import.meta.env.BASE_URL}team">The Team</a>
+            <a href="${import.meta.env.BASE_URL}outreach">Outreach</a>
+            <a href="${import.meta.env.BASE_URL}robots">Robots</a>
         </nav>
     `;
 }

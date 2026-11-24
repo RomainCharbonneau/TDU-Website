@@ -9,7 +9,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="app" class="page-section">
   <div>
     <br><br><br>
-    <img src="/assets/images/teamLogos/teamLogo.svg" class="team" alt="3132 Logo">
+    <img src="${import.meta.env.BASE_URL}assets/images/teamLogos/teamLogo.svg" class="team" alt="3132 Logo">
     <br><br>
 
 </section>
@@ -19,28 +19,28 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
     <div class="sponsor-grid">
     <a href="https://www.cocacolaep.com/" target="_blank">
-    <img src="/assets/images/sponsors/Coca-cola.svg" class="sponsors" alt="Coca-cola logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Coca-cola.svg" class="sponsors" alt="Coca-cola logo"></a>
 
     <a href="https://www.dow.com/en-us" target="_blank">
-    <img src="/assets/images/sponsors/Dow.svg" class="sponsors" alt="Dow logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Dow.svg" class="sponsors" alt="Dow logo"></a>
 
     <a href="https://www.ford.com.au/" target="_blank">
-    <img src="/assets/images/sponsors/Ford.svg" class="sponsors" alt="Ford logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Ford.svg" class="sponsors" alt="Ford logo"></a>
 
     <a href="https://www.google.com/" target="_blank">
-    <img src="/assets/images/sponsors/Google.svg" class="sponsors" alt="Google logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Google.svg" class="sponsors" alt="Google logo"></a>
 
     <a href="https://grilld.com.au/" target="_blank">
-    <img src="/assets/images/sponsors/Grilld.png" class="sponsors" alt="Grill'd logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Grilld.png" class="sponsors" alt="Grill'd logo"></a>
 
     <a href="https://www.mq.edu.au/" target="_blank">
-    <img src="/assets/images/sponsors/MacquarieUni.svg" class="sponsors" alt="Maquarie University logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/MacquarieUni.svg" class="sponsors" alt="Maquarie University logo"></a>
 
     <a href="https://novelis.com/" target="_blank">
-    <img src="/assets/images/sponsors/Novelis.png" class="sponsors" alt="Novelis logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Novelis.png" class="sponsors" alt="Novelis logo"></a>
 
     <a href="https://www.rockwellautomation.com/" target="_blank">
-    <img src="/assets/images/sponsors/Rockwell.svg" class="sponsors" alt="Rockwell Automation logo"></a>
+    <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Rockwell.svg" class="sponsors" alt="Rockwell Automation logo"></a>
     </div>
 
     <br><br>
@@ -55,7 +55,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     inclusion, inspiration, impact and innovation. Our motto, ‘Innovate. Improve. Inspire the World.’ guides us as we strive towards our
     mission of ‘STEM for Everyone, Everywhere’. </p>
   </div>
-  <img src="/assets/images/team2026.webp" class="team-photo" alt="Team photo">
+  <img src="${import.meta.env.BASE_URL}assets/images/team2026.webp" class="team-photo" alt="Team photo">
 </section>
 
 <section id="about-FIRST" class="alternate-section">
@@ -70,7 +70,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <button id="FIRST-buttons">FIRST Australia</button>
   </a>
  </div>
- <img src="/assets/images/FIRST_Logo.svg" class="logo" alt="FIRST logo">
+ <img src="${import.meta.env.BASE_URL}assets/images/FIRST_Logo.svg" class="logo" alt="FIRST logo">
  </section>
  <br>
 

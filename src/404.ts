@@ -11,7 +11,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 <p>Oops! We couldn't find that page.</p>
 
-<img src="/assets/images/nootdab.png" class="noot" alt="Noot logo">
+<img src="${import.meta.env.BASE_URL}assets/images/nootdab.png" class="noot" alt="Noot logo">
 
 <br><br><br><br><br><br><br><br><br><br>
 

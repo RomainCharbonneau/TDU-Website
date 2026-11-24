@@ -8,7 +8,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="paragraph">
   <div>
     <br><br><br>
-    <img src="/assets/images/outreach/koala.jpg" class="outreach-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/outreach/koala.jpg" class="outreach-photo">
     <br><br>
     <b><h1> The Koala Foundation </h1></b>
   </div>
@@ -27,7 +27,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     women, including multiple 3132 members. To this date, The Koala Foundation has raised thousands of dollars for 
     charity.
     <br><br>
-    <img src="/assets/images/outreach/tkf-cup.jpg" class="outreach-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/outreach/tkf-cup.jpg" class="outreach-photo">
     <br><br>
     Following the devastating Australian bushfires that have been ravaging the country for months, a FIRST Robotic 
     Competition team from California knew they wanted to help. ⁠The team worked with 21 other teams internationally to 

@@ -8,7 +8,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="paragraph">
   <div>
     <br><br><br>
-    <img src="/assets/images/outreach/lightning.png" class="outreach-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/outreach/lightning.png" class="outreach-photo">
     <br><br>
     <b><h1> Lightning Lessons </h1></b>
   </div>

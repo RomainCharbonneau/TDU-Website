@@ -8,7 +8,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="paragraph">
   <div>
     <br><br><br>
-    <img src="/assets/images/outreach/h4u.png" class="outreach-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/outreach/h4u.png" class="outreach-photo">
     <br><br>
     <b><h1> Here For You (DDU) </h1></b>
   </div>

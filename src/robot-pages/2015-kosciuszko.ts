@@ -8,7 +8,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="paragraph">
   <div>
     <br><br><br>
-    <img src="/assets/images/robots/2015kosciuszko.jpg" class="robot-photo">
+    <img src="${import.meta.env.BASE_URL}assets/images/robots/2015kosciuszko.jpg" class="robot-photo">
     <b><h1> 2015: Kosciuszko </h1></b>
   </div>
 </section>
