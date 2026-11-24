@@ -11,6 +11,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <br>
     <br>
     <h1><b> Our Sponsors </b></h1>
+    <br>
+    <div class="alternate-section">
     <a href="https://www.cocacolaep.com/" target="_blank">
     <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Coca-cola.svg" class="sponsors" alt="Coca-cola logo"></a>
 
@@ -34,13 +36,13 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
     <a href="https://www.rockwellautomation.com/" target="_blank">
     <img src="${import.meta.env.BASE_URL}assets/images/sponsors/Rockwell.svg" class="sponsors" alt="Rockwell Automation logo"></a>
-    <hr>
-    <br>
+    </div>
     <p> Sponsors are a large part of what makes our existence as a team possible. Sponsoring an FRC Team is a great way to support the next generation of engineers and scientists. If you are interested in sponsoring our team, please contact us. </p>
     <br>
     <a href="${import.meta.env.BASE_URL}assets/Sponsorship_Team_3132_2024.pdf" target="_blank">
     <button> Download Sponsorship Package </button>
     </a>
+    <br>
     <br>
     <br>    
   </div>

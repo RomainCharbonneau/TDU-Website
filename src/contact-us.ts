@@ -11,19 +11,19 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <br>
     <br>
     <h1><b> Frequently Asked Questions </b></h1>
-    <br>
-    <hr>
   </div>
 </section>
 <section id="FAQ">
-  <div>
+  <div class="alternate-section">
+    <h3> How do I contact the team? </h3>
+    <p> You can contact us using our team email address here:
+    <a href="mailto:Firstroboticsteam3132@gmail.com" target="_blank">Firstroboticsteam3132@gmail.com</a>
+    or via our Instagram or Facebook pages. </p>
+    <br>
+    <hr> 
     <h3> How can I help the team? </h3>
     <p> You can help the team by volunteering your time, donating money or materials, 
-    or by sponsoring the team. If you want to contact us about sponsorship, please use the contact form. </p>
-    <br>
-    <hr>
-    <h3> How do I contact the team? </h3>
-    <p> You can contact us using our team email address here or via our Instagram or Facebook pages. </p>
+    or by sponsoring the team. If you want to contact us about sponsorship, please use the team email above. </p>
     <br>
     <hr>
     <h3> Who can join the team? </h3>
@@ -41,8 +41,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h3> Where do you meet? </h3>
     <p> Our team meets at the Macquarie University </p>
     <br>
-
   </div>
+  <br>
 </section>
 
     ${createFooter()}
