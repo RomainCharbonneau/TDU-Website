@@ -49,7 +49,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </button>
     <button class="dropbtn">
       <a href="${import.meta.env.BASE_URL}outreach/here-for-you" target="_self">
-      <h3> 2019: Here For You </h3>
+      <h3> Here For You </h3>
       <img src="${import.meta.env.BASE_URL}assets/images/outreach/h4u.png" class="outreach">
       </a>
     </button>
