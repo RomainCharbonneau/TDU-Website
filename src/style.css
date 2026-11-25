@@ -444,7 +444,7 @@ img {
 .grid {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
-  gap: clamp(0.9rem, 2vw, 1.25rem);
+  gap: clamp(0.3rem, 2vw, 1.25rem);
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;

@@ -18,7 +18,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
   <div class="grid">
     <button class="dropbtn">
-      <a href="/outreach/24hours" target="_self">
+      <a href="${import.meta.env.BASE_URL}outreach/24hours" target="_self">
       <h3> 24 Hours of STEM </h3>
       <img src="${import.meta.env.BASE_URL}assets/images/outreach/24hours.png" class="outreach">
       </a>
